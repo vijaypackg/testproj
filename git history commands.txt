@@ -1,0 +1,1263 @@
+ 34  ssh-copy-id -i ~/.ssh/id_rsa git@github.com:vijaypackg
+   35  ssh-copy-id -i ~/.ssh/id_rsa git@github.com
+   36  ssh gituser@git.server.com
+   37  ssh git@git.server.com
+   38  ssh git@github.com
+   39  ssh-copy-id -i ~/.ssh/id_rsa.pub git@github.com
+   40  ssh-copy-id -i ~/.ssh/id_rsa.pub. git@github.com
+   41  cd  ~/.ssh/
+   42  ls
+   43  vi id_rsa.pub
+   44  cd -
+   45  git status
+   46  ls
+   47  touch readme.md
+   48  vi README.md
+   49  git status
+   50  git add .
+   51  git commit -m "ssh push"
+   52  git remote
+   53  git push myrepository master
+   54  git remote add origin git@github.com:vijaypackg/Proj-Java.git
+   55  git push orgin master
+   56  git push origin master
+   57  git pull origin master
+   58  git status
+   59  git push origin master
+   60  git init
+   61  git clone https://github.com/vijaypackg/New-Repository.git
+   62  git rm .*
+   63  git rm . *
+   64  git rm .
+   65  git rm *
+   66  rm .*
+   67  git rm New-Repository/
+   68  git rmdir New-Repository/
+   69  rmdir New-Repository/
+   70  rmdir -f New-Repository/
+   71  rm -rf New-Repository/
+   72  git fetch
+   73  git fetch https://github.com/vijaypackg/New-Repository.git/
+   74  git fetch https://github.com/vijaypackg/New-Repository.git/file1
+   75  git fetch https://github.com/vijaypackg/New-Repository.git
+   76  git branch
+   77  git fetch https://github.com/vijaypackg/New-Repository.git
+   78  git checkout master
+   79  git checkout Master
+   80  git fetch https://github.com/vijaypackg/New-Repository.git
+   81  git fork
+   82  git fsck
+   83  git fetch
+   84  git fetch https://github.com/vijaypackg/New-Repository.git
+   85  touch 1
+   86  git add .
+   87  git fetch
+   88  vijayraj@vijayraj-PC MINGW64 /c/Test/Python
+   89  $ git init
+   90  Initialized empty Git repository in C:/Test/Python/.git/
+   91  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+   92  $ git clone https://github.com/vijaypackg/New-Repository.git
+   93  Cloning into 'New-Repository'...
+   94  remote: Enumerating objects: 7, done.
+   95  remote: Counting objects: 100% (7/7), done.
+   96  remote: Compressing objects: 100% (4/4), done.
+   97  remote: Total 7 (delta 2), reused 7 (delta 2), pack-reused 0
+   98  Unpacking objects: 100% (7/7), done.
+   99  Checking connectivity... done.
+  100  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  101  $ git rm .*
+  102  fatal: ..: '..' is outside repository
+  103  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  104  $ git rm . *
+  105  fatal: pathspec '.' did not match any files
+  106  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  107  $ git rm .
+  108  fatal: pathspec '.' did not match any files
+  109  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  110  $ git rm *
+  111  fatal: pathspec 'New-Repository' did not match any files
+  112  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  113  $ rm .*
+  114  rm: cannot remove '.': Is a directory
+  115  rm: cannot remove '..': Is a directory
+  116  rm: cannot remove '.git': Is a directory
+  117  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  118  $ git rm New-Repository/
+  119  fatal: pathspec 'New-Repository/' did not match any files
+  120  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  121  $ git rmdir New-Repository/
+  122  git: 'rmdir' is not a git command. See 'git --help'.
+  123  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  124  $ rmdir New-Repository/
+  125  rmdir: failed to remove 'New-Repository/': Directory not empty
+  126  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  127  $ rmdir -f New-Repository/
+  128  rmdir: unknown option -- f
+  129  Try 'rmdir --help' for more information.
+  130  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  131  $ rm -rf New-Repository/
+  132  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  133  $ git fetch
+  134  fatal: No remote repository specified.  Please, specify either a URL or a
+  135  remote name from which new revisions should be fetched.
+  136  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  137  $ git fetch https://github.com/vijaypackg/New-Repository.git/
+  138  remote: Enumerating objects: 7, done.
+  139  remote: Counting objects: 100% (7/7), done.
+  140  remote: Compressing objects: 100% (4/4), done.
+  141  remote: Total 7 (delta 2), reused 7 (delta 2), pack-reused 0
+  142  Unpacking objects: 100% (7/7), done.
+  143  From https://github.com/vijaypackg/New-Repository
+  144   * branch            HEAD       -> FETCH_HEAD
+  145  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  146  $ git fetch https://github.com/vijaypackg/New-Repository.git/file1
+  147  remote: Not Found
+  148  fatal: repository 'https://github.com/vijaypackg/New-Repository.git/file1/' not found
+  149  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  150  $ git fetch https://github.com/vijaypackg/New-Repository.git
+  151  From https://github.com/vijaypackg/New-Repository
+  152   * branch            HEAD       -> FETCH_HEAD
+  153  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  154  $ git branch
+  155  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  156  $ git fetch https://github.com/vijaypackg/New-Repository.git
+  157  From https://github.com/vijaypackg/New-Repository
+  158   * branch            HEAD       -> FETCH_HEAD
+  159  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  160  $ git checkout master
+  161  error: pathspec 'master' did not match any file(s) known to git.
+  162  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  163  $ git checkout Master
+  164  error: pathspec 'Master' did not match any file(s) known to git.
+  165  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  166  $ git fetch https://github.com/vijaypackg/New-Repository.git
+  167  From https://github.com/vijaypackg/New-Repository
+  168   * branch            HEAD       -> FETCH_HEAD
+  169  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  170  $
+  171  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  172  $ git fork
+  173  git: 'fork' is not a git command. See 'git --help'.
+  174  Did you mean this?
+  175          fsck
+  176  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  177  $ git Fork
+  178  git: 'Fork' is not a git command. See 'git --help'.
+  179  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  180  $ git fsck
+  181  notice: HEAD points to an unborn branch (master)
+  182  Checking object directories: 100% (256/256), done.
+  183  notice: No default references
+  184  dangling commit 0e8396ee194953cb25a0a98c49eafd0d11a925f7
+  185  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  186  $ git fetch
+  187  fatal: No remote repository specified.  Please, specify either a URL or a
+  188  remote name from which new revisions should be fetched.
+  189  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  190  $ git fetch https://github.com/vijaypackg/New-Repository.git
+  191  From https://github.com/vijaypackg/New-Repository
+  192   * branch            HEAD       -> FETCH_HEAD
+  193  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  194  $ touch 1
+  195  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  196  $ git add .
+  197  vijayraj@vijayraj-PC MINGW64 /c/Test/Python (master)
+  198  $ git fetch
+  199  $ git fetch
+  200  $ git fetch https://github.com/octocat/Spoon-Knife
+  201  $ git fetch https://github.com/octocat/Spoon-Knife.git
+  202  $ git fetch
+  203          New-Repository/new.txt
+  204
+  205  clear
+  206  git fetch
+  207          New-Repository/new.txt
+  208  git fetch https://github.com/vijaypackg/New-Repository.git
+  209  git status
+  210  clear
+  211  git init
+  212  touch 1 2
+  213  rm 2
+  214  git add .
+  215  git commit -m "first commit"
+  216  touch 2
+  217  git add .
+  218  git commit -m "secnd commit"
+  219  git log --online
+  220  git log --oneline
+  221  git branch
+  222  git branch test
+  223  git checkout test
+  224  touch 3
+  225  git add .
+  226  git commit -m "third commit"
+  227  touch 4
+  228  git add .
+  229  git commit -m "fourth commit"
+  230  git log --oneline
+  231  git checkout master
+  232  touch 5
+  233  git add .
+  234  git commit -m "fifth commit""
+  235  git commit -m "fifth commit"
+  236  touch 6
+  237  git add .
+  238  git commit -m "sixth commit"
+  239  git branch
+  240  Rebase test branch with master
+  241  git checkout test
+  242  git rebase master
+  243  git checkout master
+  244  git merge test
+  245  git rebase -i HEAD~4
+  246  git log --oneline
+  247  git abort
+  248  git rebase --ab
+  249  git master --abort
+  250  git log --oneline
+  251  git squash
+  252  git stash
+  253  git amend
+  254  git commit --amend -m "some comments"
+  255  git log --oneline
+  256  git init
+  257  clear
+  258  touch file1 file2 file3 file4
+  259  git add .
+  260  git status
+  261  git rm --cached fil.*
+  262  git rm --cached file.*
+  263  git rm --cached file1.*
+  264  git rm --cached file1.
+  265  git rm --cached .
+  266  git rm --cached -r
+  267  git rm --cached .-r
+  268  git rm --cached . -r
+  269  git status
+  270  git add .
+  271  git commit -m "to add it to the new dontnet proj-first commit"
+  272  git status
+  273  clear
+  274  git log
+  275  git log --oneline
+  276  git log --twoline
+  277  git log --duoline
+  278  clear
+  279  git log --secondline
+  280  git branch -a
+  281  git branch user
+  282  git checkout user
+  283  touch file9
+  284  git merge master
+  285  git add .
+  286  git commit -m "added to the new branch called user"
+  287  git merge master
+  288  git merge user
+  289  git checkout master
+  290  git merge user
+  291  git branch -d user
+  292  git branch
+  293  git branch user
+  294  git checkout user
+  295  touch new.txt
+  296  git add .
+  297  git status
+  298  git branch -D user
+  299  git checkout master
+  300  git branch -D user
+  301  git branch
+  302  git status
+  303  git branch
+  304  ls
+  305  git commit -m "third commit"
+  306  git pull origin https://github.com/vijaypackg/New-Repository.git
+  307  git remote add origin https://github.com/vijaypackg/New-Repository.git
+  308  git push origin master
+  309  git fetch https://github.com/octocat/Spoon-Knife
+  310  git fetch https://github.com/vijaypackg/New-Repository.git
+  311  git branch -a
+  312  git fetch remote origin master
+  313  git fetch origin master
+  314  git checkout user
+  315  git branch user
+  316  git checkout user
+  317  git fetch origin master
+  318  git status
+  319  git branch -a
+  320  git checkout remotes/origin/master
+  321  git status
+  322  git checkout master
+  323  git merge remote/origin/master
+  324  ls
+  325  git status
+  326  git sttaus
+  327  git status
+  328  git commit -m "old files deleted"
+  329  git rm file3 file4 file9
+  330  git status
+  331  git rm new.txt
+  332  git commit -m "old files deleted"
+  333  git status
+  334  git remote
+  335  git branch
+  336  touch file6
+  337  git add.
+  338  git add .
+  339  git stash
+  340  git status
+  341  git stash pop
+  342  git stash -u
+  343  touch .gitignore
+  344  git status
+  345  git stash -a
+  346  git status
+  347  git stash list
+  348  git stash pop stash@{1}
+  349  git status
+  350  git stash popo
+  351  git stash pop
+  352  git stash -a
+  353  git status
+  354  git stash help
+  355  git stash show
+  356  git stash --index
+  357  git stash list
+  358  git clear
+  359  git clean
+  360  git clean -f
+  361  ls
+  362  git stash lis
+  363  git stash list
+  364  git stash poop
+  365  git stash pop
+  366  git clean -f
+  367  git add .
+  368  git status
+  369  git stash -u
+  370  git stash pop
+  371  git commit -m "unstashing the file"
+  372  git status
+  373  git stash -a
+  374  git status
+  375  git tag Q1-code
+  376  touch file8 file0
+  377  gi add .
+  378  git add .
+  379  git commit -m "quarted 2 code commited"
+  380  git tag Q2-code
+  381  git tag
+  382  touch test1 test2
+  383  git add .
+  384  git commit -m "annoted tag commit"
+  385  git tag -a Q3-annoted tag -m "annoted tag has been done"
+  386  git tag -a Q3-annoted-tag -m "annoted tag has been done"
+  387  git show tagname
+  388  git show tag
+  389  git tag
+  390  git show Q1-code
+  391  git show Q2-code
+  392  git push --tags
+  393  git add .
+  394  git status
+  395  git commit -m
+  396  git commit -m "git file added"
+  397  git push origin master
+  398  git pull origin master
+  399  git merge master
+  400  git add .
+  401  git status
+  402  git commit -m "comit"
+  403  git merge master
+  404  git push origin master
+  405  git init
+  406  touch file1
+  407  touch file2 file3
+  408  git add .
+  409  git commit -m "test commit"
+  410  git branch newuser
+  411  git checkout testuser
+  412  git checkout newuser
+  413  ls
+  414  clear
+  415  git branch
+  416  touch user1 user2 user3
+  417  git add .
+  418  git commit -m "commit in other branch"
+  419  git remote add pushing https://github.com/vijaypackg/testproj.git
+  420  git push pushing
+  421  git push --set-upstream
+  422  git pull pushing newuser
+  423  git pull pushing
+  424  git push pushing
+  425  git push --set-upstream pushing newuser
+  426  git add .
+  427  git commit -m "git files added"
+  428  git remote
+  429  git push pushing
+  430  ssh 52.91.78.141
+  431  ssh ec2-52-91-78-141.compute-1.amazonaws.com
+  432  exit
+  433  ssh -i "awstest.pem" ec2-user@ec2-100-26-198-166.compute-1.amazonaws.com
+  434  ssh -i "awstest.pem" ec2-user@ec2-100-26-198-166.compute-1.amazonaws.com
+  435  ssh -i "awstest.pem" ec2-user@ec2-100-26-198-166.compute-1.amazonaws.com
+  436  cls
+  437  clear
+  438  ssh -i "awstest.pem" ubuntu@ec2-54-80-11-65.compute-1.amazonaws.com
+  439  ssh -keygen
+  440  ssh -i "awstest.pem" ubuntu@ec2-100-24-18-216.compute-1.amazonaws.com
+  441  ssh 18.207.193.31
+  442  ssh -i "awstest.pem" ec2-user@ec2-18-207-193-31.compute-1.amazonaws.com
+  443  ssh -i "awstest.pem" ec2-user@ec2-184-72-88-180.compute-1.amazonaws.com
+  444  ssh -i "awstest.pem" ubuntu@ec2-54-234-124-251.compute-1.amazonaws.com
+  445  git init
+  446  git add .
+  447  git commit -m "initial commit"
+  448  git push
+  449  git remote add origin https://github.com/vijaypackg/New-Repository.git
+  450  git push
+  451   git push --set-upstream origin master
+  452  git push -u origin master
+  453  git pull
+  454  git push -u origin master
+  455  git add .
+  456  git commit -m "new files added"
+  457  git push -u origin master
+  458  git status
+  459  git add .
+  460  git status
+  461  git commit -m "new files added"
+  462  git remote add origin https://github.com/vijaypackg/testproj.git
+  463  git remote
+  464  git push origin
+  465  git push --set-upstream origin master
+  466  git pull origin
+  467  git pull origin master
+  468  git pull origin https://github.com/vijaypackg/testproj.git
+  469  git pull origin testuser
+  470  git push origin master
+  471  git pull origin master
+  472  git fetch origin
+  473  ls
+  474  git pull
+  475  git pull master
+  476  git pull remote origin
+  477  git pull origin master
+  478  git init
+  479  git add .
+  480  git remote add gitsetupfile
+  481  git remote add gitsetupfile https://github.com/vijaypackg/testproj.git
+  482  git commit -m
+  483  git commit -m "ll files added"
+  484  git push gitsetupfile
+  485  git push gitsetupfile master
+  486  git pull https://github.com/vijaypackg/testproj.git
+  487  git pull https://github.com/vijaypackg/testproj.git/master
+  488  git clone https://github.com/vijaypackg/testproj.git
+  489  git push origin master
+  490  git push gitsetupfile master
+  491  git push --help
+  492  git push gitsetupfile
+  493  git push --set-upstream gitsetupfile master
+  494  git pull --rebase
+  495  git add .
+  496  git commit -m "secnd cmmit"
+  497  git pull --rebase
+  498  git push -f gitsetupfil
+  499  git push -f gitsetupfile
+  500  git init
+  501  git status
+  502  git add tttt.txt
+  503  git status
+  504  git remote
+  505  git branch
+  506  git branch -a
+  507  git branch -u
+  508  git branch -v
+  509  git branch -a
+  510  git branch -u
+  511  git branch -d
+  512  git remote -a
+  513  git remote -v
+  514  git log
+  515  git remote add techm https://github.com/vijaypackg/testproj.git
+  516  git pull
+  517  git commit -m "added new file to techm repo"
+  518  git pull techm master
+  519  git pull --allow-unrelated-histories
+  520  git pull techm master --allow-unrelated-histories
+  521  git push techm master
+  522  git branch
+  523  git branch -u origin/master
+  524  git branch -u techm/master
+  525  git remote add origin https://github.com/vijaypackg/New-Repository.git
+  526  git push origin --delete "testuser3"
+  527  git commit -m "deleted the branch"
+  528  git push origin --delete "testuser"
+  529* git push origin --delete [Bdelete "devlpr"
+  530  git remote
+  531  git remote origin
+  532  clear
+  533  history
+----------------------------------------------------------------------------
+
+docker cmnds
+----------------------------------------------------------------------------
+ 1  cd /
+    2  cd var/lib/
+    3  ls
+    4  cd docker/
+    5  ls
+    6  cd ..
+    7  cd etc/default/
+    8  ls
+    9  cd grub
+   10  ls -la
+   11  cd ..
+   12  ls
+   13  sysconfig/
+   14  cd sysconfig/
+   15  ls
+   16  cd docker-storage
+   17  vi docker-storage
+   18  cd console/
+   19  ls
+   20  cd ../../
+   21  ls
+   22  vi docker/
+   23  cd ../../
+   24  yum install docker
+   25  curl -fsSL get.docker.com -o get-docker.sh
+   26  sh get-docker.sh
+   27  sudo amazon-linux-extras install docker
+   28  docker --version
+   29  cd /
+   30  cd etc
+   31  ls
+   32  cd docker/
+   33  ls
+   34  cd ..
+   35  which docker
+   36  cd /usr/bin/docker
+   37  cd ..
+   38  cd /usr/bin/docker
+   39  cd usr
+   40  cd bin/
+   41  ls
+   42  vi docker
+   43  ps -ef | grep Docker
+   44  cd ..
+   45  ls
+   46  cd ..
+   47  docker ps -s
+   48  docker ps
+   49  docker tag peaceful_torvalds Tomcat-8
+   50  docker tag peaceful_torvalds tomcat-8
+   51  docker ps
+   52  docker tag peaceful_torvalds tomcat8
+   53  docker tag tomcat tomcat8
+   54  docker ps
+   55  docker images
+   56  docker pull maven
+   57  ls
+   58  cd /
+   59  ls
+   60  cd lib/var
+   61  cd var/lib
+   62  ls
+   63  cd docker
+   64  ls
+   65  cd container
+   66  cd containers
+   67  ls
+   68  cd 50e2b9fa20a92759cdb8a7945ee2210a3c186804a65b8c6854441133b0a907a6/
+   69  ls
+   70  vi resolv.conf
+   71  cd hosts
+   72  vi hostst
+   73  vi hosts
+   74  vi hostconfig.json
+   75  cd ..
+   76  ls
+   77  cd image/
+   78  ls
+   79  cd overlay2/
+   80  ls
+   81  ccd imagedb/
+   82  cd imagedb/
+   83  ls
+   84  cd metadata/
+   85  ls
+   86  cd ..
+   87  ls
+   88  cd ..
+   89  cd containerd
+   90  ls
+   91  cd daemon/
+   92  ls
+   93  cd ../../../
+   94  cd docker/container
+   95  cd docker/containers
+   96  ls
+   97  cd /
+   98  docker info
+   99  docker run tomcat
+  100  docker run -it tomcat
+  101  docker container ls
+  102  docker stop tomcat8
+  103  docker container ;s
+  104  docker container ls
+  105  docker container create
+  106  docker container create --help
+  107  docker container create --voluem list
+  108  docker container create --volume list
+  109  docker container create --volume list tomcat8 run
+  110  docker container create --volume list tomcat8
+  111  docker container -a
+  112  docker container all
+  113  docker ps
+  114  docker container ls
+  115  docker container create --volume list tomcat98 run
+  116  docker container create --help
+  117  docker build -t
+  118  docker build --help
+  119  history
+  120  docker run -rm tomcat8
+  121  docker run --rm tomcat8
+  122  docker run -p 8181:8080 --tomcat8
+  123  docker run -p 8181:8080 --tomcat
+  124  docker ps
+  125  docker run -p 8181:8080 --nifty_gates
+  126  docker run -p 8181:8080 tomcat8
+  127  history
+  128  docker push tomcat8
+  129  docker login
+  130  docker push tomcat8
+  131  docker run --help
+  132  http-nio-8080
+  133  docker container ls
+  134  docker stop tomcat8
+  135  docker stop fervent_sammet
+  136  docker ps
+  137  docker container ls
+  138  docker rm fervent_sammet
+  139  docker run tomcat8
+  140  history
+  141  service docker start
+  142  clear
+  143  docker ps
+  144  docker images
+  145  docker inspect maven
+  146  docker container ls
+  147  docker run maven
+  148  mvn --verion
+  149  maven -v
+  150  docker container ls
+  151  docker images
+  152  docker run apache_tomcat
+  153  sudo su -
+  154  doker ps
+  155  docker ps
+  156  docker start myubuntu
+  157  docker stop  myubuntu
+  158  docker start myubuntu
+  159  docker stop  myubuntu
+  160  docker pause ubuntu
+  161  docker pause myubuntu
+  162  docker start myubuntu
+  163  docker pause myubuntu
+  164  docker images
+  165  docker container ls
+  166  docker rmi -f ubuntu
+  167  docker container ls
+  168  docker images
+  169  docker rmi 93fd78260bd1
+  170  docker rmi -f 93fd78260bd1
+  171  docker stop 93fd78260bd1
+  172  clear
+  173  docker stop myubuntu
+  174  docker comtainer ls
+  175  clear
+  176  docker ocntainer ls
+  177  clear
+  178  docker container ls
+  179  docker ps -a
+  180  docker run --name newubuntu -it ubuntu
+  181  docker kill newubuntu
+  182  docer ps -a
+  183  docker ps -a
+  184  docker kill .
+  185  docker kill ./
+  186  docker kill /
+  187  docker kill .*
+  188  docker kill -f .*
+  189  docker kill -help
+  190  docker kill --help
+  191  docker kill -S .*
+  192  docker ps -a
+  193  docker rmi -f ubuntu
+  194  docker ps -a
+  195  docker container ls'
+  196  clear
+  197  docker container ls
+  198  docker run myubuntu
+  199  docker run ub
+  200  docker ps -a
+  201  docker ls
+  202  clear
+  203  docker container ls
+  204  docker ps -a
+  205  exir
+  206  exit
+  207  clear
+  208  docker container ls
+  209  docker images
+  210  histor
+  211  sudo su-
+  212  sudo su
+  213  sudo su -
+  214  docker rmi tomcat8
+  215  docker images
+  216  docker rmi ce22ba6526c6
+  217  docker stop 4e58a82ba022
+  218  docker rmi ce22ba6526c6
+  219  docker ps
+  220  docker container s
+  221  docker container ls
+  222  clear
+  223  docker rmi -f maven
+  224  dockerr ps
+  225  docker ps
+  226  docker images
+  227  docker rmi apache_tomcat
+  228  docker stop 849bbd1938e3
+  229  docker rmi apache_tomcat
+  230  docker stop 78b258e36eed
+  231  docker stop e49aff564b19
+  232  docker rmi apache_tomcat
+  233  clear
+  234  docker container ls
+  235  docker stop 7645889df86c
+  236  docker rmi apache_tomcat
+  237  docker stop --help
+  238  docker stop -t apache_tomcat
+  239  docker stop elegant_ardinghelli
+  240  docker rmi apache_tomcat
+  241  docker images --help
+  242  docker images -q
+  243  docker images -f "dangling=false"
+  244  docker images -f "dangling=true"
+  245  docker images -f "dangling=false"
+  246  docker history apache_tomcat
+  247   sudo su
+  248  docker rmi -f ENV CATALINA_HOME=/usr/lo…   0B
+  249  docker images
+  250  docker rmi -f apache_tomcat
+  251  docker images
+  252  clear
+  253  docker pull hello-world
+  254  docker run hello-world
+  255  docker ps -a
+  256  docker ps
+  257  docker container ls
+  258  docker run ubuntu
+  259  docker images
+  260  docker rmi -f hello-world
+  261  docker images
+  262  doker ps
+  263  docker ps
+  264  docker ps -a
+  265  docker ps --help
+  266  docker stop 78b258e36eed
+  267  docker stop 50e2b9fa20a9
+  268  docker rmi ubuntu
+  269  docker rmi -f ubuntu
+  270  docker ps -a
+  271  clear
+  272  docker imagers
+  273  clear
+  274  docker images
+  275  docker ps -a
+  276  docker container ls
+  277  clear
+  278  docker run --name myubuntu -it ubuntu
+  279  docker run myubuntu
+  280  docker run ubuntu
+  281  docker run -it ubuntu
+  282  docker ps
+  283  docker start newubuntu
+  284  docker pause newubuntu
+  285  docker unpause newubuntu
+  286  docker top newubuntu
+  287  docker stats newubuntu
+  288  docker attach newubuntu
+  289  docker run -it ubuntu
+  290  history
+  291  sudo su -
+  292  clear
+  293  docker version
+  294  yum update docker
+  295  yum update docker 18.06
+  296  yum install docker
+  297  clear
+  298  docker ps
+  299  service docker start
+  300  docker ps
+  301  docker ps -a
+  302  docker rm $(docker ps-a -q) -f
+  303  docker rm $(docker ps -a -q) -f
+  304  cclear
+  305  clear
+  306  docker ps -a
+  307  docker ps
+  308  docker run --name mynginx -d -p 8080;8080 nginx
+  309  docker run --name mynginx -d -p 8080:8080 nginx
+  310  docker ps
+  311  docker exec -it mynginx
+  312  docker exec -it mynginx /bin/bash
+  313  docker rm $(docker ps -a -q) -f
+  314  docker ps
+  315  docker ps -a
+  316  clear
+  317  docker run --name myjenkins -d -p 8080:8080 jenkins
+  318  docker pull helloworld
+  319  docker pull hello world
+  320  docker pull "hello world"
+  321  docker pull hello-world
+  322  docker ps
+  323  docker images
+  324  docker rmi ubuntu
+  325  docker images
+  326  docker images
+  327  clear
+  328  docker images
+  329  docker search nginx
+  330  docker run hello-world
+  331  docker ps
+  332  docker images
+  333  docker ps -a
+  334  docker search mynginx
+  335  docker run it mynginx /bin/bash
+  336  docker run -it mynginx /bin/bash
+  337  service docker status
+  338  docker run nginx
+  339  clear
+  340  docker run -it nginx
+  341  docker run -d -p 8080:8080 mynginx
+  342  docker rmi nginx -f
+  343  docker ps
+  344  docker ps -a
+  345  docker rm $(docker ps -a -q) -f
+  346  docker images
+  347  docker ps -a
+  348  docker rmi jenkins
+  349  clear
+  350  docker ps -a
+  351  docker ps
+  352  clear
+  353  docker run -it nginx
+  354  docker images
+  355  docker ps -a
+  356  docker exec -it eager_albattani
+  357  docker exec -it -d -p 8080:8080 eager_albattani
+  358  docker exec -d -p 8080:8080 eager_albattani
+  359  docker exec -d -p 8080:8080 eager_albattani .bin/bash
+  360  docker exec -d -p 8080:8080 eager_albattani /bin/bash
+  361  docker run -d -p 8eager_albattani /bin/bash
+  362  docker run -d -p 8eager_albattani
+  363  docker run -d -p eager_albattani /bin/bash
+  364  docker run -d -p nginx /bin/bash
+  365  docker run -it -p 8080:8080 nginx /bin/bash
+  366  exit
+  367  docker ps
+  368  service docker start
+  369  docker pull nginx
+  370  docker images
+  371  docker rmi hello-world
+  372  docker images
+  373  clear
+  374  docker ps
+  375  docker ps -a
+  376  docker rm $(docker ps -a -q) -f
+  377  docker ps -a
+  378  docker images
+  379  docker rmi nginx
+  380  docker pull nginx
+  381  docker images
+  382  docker run -d -p 8080:8080 nginx
+  383  docker ps
+  384  docker run -d -p 8081:8080 nginx
+  385  docker ps
+  386  docker run -d -p 80:80 nginx
+  387  docker ps
+  388  docker rm f0594530cca4
+  389  docker rm f0594530cca4 -f
+  390  docker rm 6ca0d2220585 -f
+  391  docker ps -a
+  392  docker run --name mynginx -d -p 80:80 nginx
+  393  docker rm 5db08f9b8af4
+  394  docker rm 5db08f9b8af4 -f
+  395  docker images
+  396  docker run -name mynginx -d -p 80:80 nginx
+  397  docker run --name mynginx -d -p 80:80 nginx
+  398  docker stop mynginx
+  399  docker ps -a
+  400  docker rm mynginx
+  401  docker ps -a
+  402  docker images
+  403  docker rmi nginx
+  404  clear
+  405  docker run --name mynginx -d -p 80:80 nginx:10.0
+  406  docker run --name mynginx -d -p 80:80 nginx:15.0
+  407  docker run --name mynginx -d -p 80:80 nginx:1.0
+  408  docker run --name mynginx -d -p 80:80 nginx:1.13
+  409  docker ps -a
+  410  service docker start
+  411  clear
+  412  docker ps
+  413  docker ps -a
+  414  docker $(docker ps -a -q) -f
+  415  docker rm $(docker ps -a -q) -f
+  416  docker ps -a
+  417  clear
+  418  docker pull ubuntu:14.0
+  419  docker pull ubuntu:13.0
+  420  docker pull ubuntu:14.04
+  421  docker ps -a
+  422  docker images
+  423  docker exec -it 7e4b16ae8b23
+  424  docker exec -it 7e4b16ae8b23 /bin/bash
+  425  docker run --name myubuntu -d ubuntu
+  426  docker images
+  427  docker ps -a
+  428  docker exec -it 3816e2d06a6c
+  429  docker exec -it 3816e2d06a6c /bin/bash
+  430  docker exec 3816e2d06a6c /bin/bash
+  431  docker exec myuyububtu
+  432  docker exec myubuntu
+  433  docker ps
+  434  docker run -it myubuntu
+  435  docker run myubuntu
+  436  docker ps
+  437  docker images
+  438  docker run ubuntu
+  439  docker run -it ubuntu
+  440  clear
+  441  docker images
+  442  docker ps
+  443  docker rmi $(docker images -q)
+  444  docker ps -a
+  445  docker rm $(docker ps -a -q) -f
+  446  docker images
+  447  docker rmi $(docker images -q) -f
+  448  clear
+  449  docker ps
+  450  docker ps -a
+  451  clear
+  452  docker pull ubuntu:14.04
+  453  docker run --name myubuntu -it ubuntu:14.04
+  454  docker images
+  455  docker ps
+  456  docker ps -a
+  457  docker rm myubuntu
+  458  docker ps -a
+  459  docker run -d -p 81:80 nginx
+  460  docker run -d -p 81:80 nginx /bin/bash
+  461  docker rmi $(docker images -q) -f
+  462  docker rm $(docker ps -a -q) -f
+  463  docker ps
+  464  docker run -d -p 81:80 nginx /bin/bash
+  465  docker inspect nginx
+  466  docker
+  467  docker images
+  468  docker stop 6d43036a59e9
+  469  docker pause
+  470  docker ps -a
+  471  docker stop 46a19911fa6b
+  472  docker exec -it epic_northcutt /bin/bash
+  473  docker run 46a19911fa6b
+  474  docker ps
+  475  docker ps -a
+  476  docker rm 46a19911fa6b
+  477  docker rm 346547087de7
+  478  docker ps -a
+  479  docker ps
+  480  docker images
+  481  docker run nginx
+  482  docker run -it -p 81:80 nginx /bin/bash
+  483  exit
+  484  docker ps
+  485  docker stop myubuntu
+  486  docker ps
+  487  docker ps -a
+  488  exit
+  489  docker ps
+  490  docker images
+  491  docker exec -it nginx /bin/bash
+  492  docker ps -a
+  493  docker exec -it distracted_galileo /bin/bash
+  494  docker exec -it vigorous_sinoussi /bin/bash
+  495  docker exec -it vigorous_sinoussi
+  496  docker ru  -it vigorous_sinoussi /bin/bash
+  497  docker run -it vigorous_sinoussi /bin/bash
+  498  docker run -it nginx /bin/bash
+  499  docker run nginx /bin/bash
+  500  docker ps -a
+  501  docker run -it -d nginx /bin/bash
+  502  docker run -it -d -p 81:80 nginx /bin/bash
+  503  docker run -it -d -p 81:80 nginx
+  504  docker rm $(docker ps -a -q) -f
+  505  docker run -it -d -p 81:80 nginx /bin/bash
+  506  docker run -it -d -p 80:80
+  507  docker run -d -p 80:80
+  508  docker exec -it nginx
+  509  docker ps -a
+  510  docker run -it -d -p 80:80 happy_noyce /bin/bash
+  511  clear
+  512  docker rm $(docker ps -a -q) -f
+  513  docker run -it --name mynginx -d -p 81:80 nginx /bin/bash
+  514  docker ps -a
+  515  docker exec -it nginx
+  516  docker exec -it nginx /bin/bash
+  517  docker exec -it mynginx /bin/bash
+  518  docker ps -a
+  519  docker rm $(docker ps -a -q) -f
+  520  docker run -it nginx
+  521  docker ps -a
+  522  docker ps
+  523  docker run --name some-wordpress --link some:mysql =p 8080:80 -d woerdpress
+  524  docker run --name some-wordpress --link some:mysql -p 8080:80 -d woerdpress
+  525  docker run --name some-wordpress --link somemysql -p 8080:80 -d woerdpress
+  526  docker run --name some-wordpress --link some-mysql:mysql -d wordpress
+  527  docker run --name some-wordpress --link some-mysql:mysql -p 8080:80 -d wordpress
+  528  docker run --name some-wordpress --link --name some-mysql:mysql -p 8080:80 -d wordpress
+  529  docker run --name some-wordpress --link mysql:mysql -p 8080:80 -d wordpress
+  530  docker run --name some-wordpress --link some-mysql:mysql -d wordpress\
+  531  docker rm $(docker ps -a -q) -f
+  532  docker run --name some-wordpress --link some-mysql:mysql -d wordpress
+  533  docker run --name some-wordpress --link some-mysql:mysql -p 8080:80 -d wordpress
+  534  docker run --name some-wordpress --link minesql:mysql -d wordpress
+  535  docker run --name some-word
+  536  docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
+  537  docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql
+  538  docker run --name some-wordpress --link some-mysql:mysql -p 8080:80 -d wordpress
+  539  docker run --name some-wordpress --link some-mysql:mysql -p 8081:80 -d wordpress
+  540  docker run --name some-wordpress1 --link some-mysql:mysql -p 8080:80 -d wordpress
+  541  docker run -it some-wordpress1
+  542  docker ps
+  543  docker ps -a
+  544  docker run --name some-wordpress1 --link some-mysql:mysql -it -p 8080:80 -d wordpress
+  545  docker rm $(docker ps -a -q) -f
+  546  docker ps -a
+  547  docker images
+  548  docker rmi -a
+  549  docker rmi $(docker images -q)
+  550  docker images
+  551  docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql
+  552  docker run --name some-wordpress --link some-mysql:mysql -p 8080:80 -d wordpress
+  553  docker ps
+  554  docker run -it some-wordpress
+  555  docker run some-wordpress
+  556  docker rm $(docker ps -a -q) -f
+  557  docker rmi $(docker images -q)
+  558  docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql
+  559  docker run -it --name some-wordpress --link some-mysql:mysql -p 8080:80 -d wordpress
+  560  cd /
+  561  cd tmp/
+  562  vi Dockerfile
+  563  wget http://mirrors.jenkins.io/war-stable/latest/jenkins.war
+  564  ls
+  565  docker build -t myimage:7
+  566  docker build -t myimage:7ls
+  567  ls
+  568  docker build -t myimage:7 .
+  569  vi Dockerfile
+  570  docker build -t myimage:7 .
+  571  cat Dockerfile
+  572  vi Dockerfile
+  573  docker build -t myimage:7 .
+  574  ls
+  575  vi Dockerfile
+  576  docker build -t myimage:7 .
+  577  docker run --name mytomc1 -d -p 8081:8080 myimage:7
+  578  docker exec -it mytomc1 /bin/bash
+  579  exit
+  580  ls
+  581  cd tm
+  582  cd /
+  583  cd tmp
+  584  cd docker/
+  585  vi Dockerfile
+  586  cp Dockerfile  /../myscript/Dockerfile
+  587  cp Dockerfile  ../myscript/Dockerfile
+  588  cp Dockerfile  ./../myscript/Dockerfile
+  589  cp Dockerfile  .\..\myscript/Dockerfile
+  590  cp Dockerfile ./../
+  591  ls
+  592  cd ..
+  593  ls
+  594  cp Dockerfile  ./../myscript/
+  595  cp Dockerfile  ./../myscript
+  596  ls
+  597  cd ..
+  598  ls
+  599  cd myscr
+  600  cd myscript
+  601  rm myscript
+  602  cd -
+  603  ls
+  604  vi Dockerfile
+  605  docker build -t mytomc:1
+  606  docker build -t mytomc:1 >
+  607  docker build -t mytomc:1 .
+  608  service docker status
+  609  service docker start
+  610  docker build -t mytomc:1 .
+  611  docker build -t mytomc:1
+  612  vi Dockerfile
+  613  clear
+  614  ls
+  615  vi docker-compose.yml
+  616  docker ps
+  617  service docker start
+  618  docker ps
+  619  docker ps -a
+  620  docker rm $(docker ps -a -q) -f
+  621  docker images
+  622  docker rmi $(docker images -q)
+  623  docker rmi $(docker images -q) -f
+  624  docker images
+  625  docker ps -a
+  626  clear
+  627  docker-compose up
+  628  clear
+  629  cd /
+  630  cd tmp
+  631  cd docker/
+  632  ls
+  633  cat Dockerfile
+  634  vi Dockerfile
+  635  docker build -t mytomjenk:1
+  636  docker build -t mytomjenk:1 .
+  637  vi Dockerfile
+  638  docker build -t mytomjenk:1 .
+  639  docker run --name tomjenk -d -p 8081:8080 mytomjenk:1
+  640  docker exec -it tomjenk /bin/bash
+  641  vi Dockerfile
+  642  docker build -t mytomjenk:2 .
+  643  docker run --name tomjenk -d -p 8080:8080 mytomjenk:2
+  644  docker run --name tomjenk2 -d -p 8080:8080 mytomjenk:2
+  645  docker exec -it tomjenk2 /bin/bash
+  646  ls
+  647  vi Dockerfile
+  648  docker rm $(docker ps -a -q) -f
+  649  docker rmi $(docker images -q) -f
+  650  clear
+  651  docker ps
+  652  docker images
+  653  clear
+  654  vi Dockerfile
+  655  docker build -t mys3image:1
+  656  docker build -t mys3image:1 .
+  657  vi Dockerfile
+  658  docker build -t mys3image:2 .
+  659  docker run --name -d -p 8081:8080 mys3image:2
+  660  docker run --name tomc1 -d -p 8081:8080 mys3image:2
+  661  docker exec -it tomc1 /bin/bash
+  662  ls
+  663  ls -la
+  664  clear
+  665  ls
+  666  cd ../../
+  667  docker login
+  668  docker images
+  669  docker push cd71b4af0827
+  670  docker push mys3image
+  671  docker tag mys3img vijaypackg/mys3image:2
+  672  docker tag mys3image vijaypackg/mys3img:2
+  673  docker tag tomc1 vijaypackg/mys3image:2
+  674  docker images
+  675  docker images -help
+  676  docker images --help
+  677  docker images -a
+  678  docker tag mys3image vijaypackg/mys3img:2
+  679  docker images
+  680  docker tag mys3image:2 vijaypackg/mys3:3
+  681  docker images
+  682  docker push vijaypackg/mys3:3
+  683  docker volume ls
+  684  docker volume COMMAND
+  685  mkdir myvolume
+  686  cd myvolume/
+  687  cd ..
+  688  docker run -v /myvolume --name c1 -d -p 8081:8080 vijaypackg/mys3:3
+  689  docker run -v /myvolume --name c2 -d -p 8082:8080 vijaypackg/mys3:3
+  690  docker exec -it mys3:3 /bin/bash
+  691  docker exec -it c2 /bin/bash
+  692  cd myvolume/
+  693  ls
+  694  docker exec -it c2 /bin/bash
+  695  docker inspect c2
+  696  docker exec -it c2 /bin/bash
+  697  ls
+  698  cd /
+  699  cd  /myvolume
+  700  cd -
+  701  cd /usr/local/tomcat# cd /var/lib/docker/volumes/efa97d76629700136383f1c0759be91eca266b66a23e0fd67989af6486dc322c/_data
+  702  cd /var/lib/docker/volumes/efa97d76629700136383f1c0759be91eca266b66a23e0fd67989af6486dc322c/_data
+  703  ls
+  704  exit
+  705  sudo su -
+  706  exit
+  707  cd /
+  708  docker ps
+  709  docker ps -a
+  710  docker images
+  711  ls
+  712  cd tmp/docker/
+  713  ls
+  714  cd ..
+  715  ls
+  716  cd ..
+  717  ls
+  718  cd myvolume/
+  719  ls
+  720  cd ..
+  721  docker run -v /myvolume --name c2 -d -p 8082:8080 vijaypackg/mys3:3
+  722  docker run -v /myvolume --name c32 -d -p 8082:8080 vijaypackg/mys3:3
+  723  ls
+  724  cd myvolume/
+  725  ls
+  726  ls -a
+  727  ls -la
+  728  docker exec -it c32 .bin/bash
+  729  docker exec -it c32 /bin/bash
+  730  docker run -v /myvolume --name c4 -d -p 8083:8080 vijaypackg/mys3:3
+  731  docker exec -it c4 /bin/bash
+  732  ls
+  733  cd ..
+  734  docker inspect c4
+  735  cd /var/lib/docker/volumes/5ddf285a1398afabc27e6239656caa1162437ecc091a307313169e90ffed217e/_data
+  736  ls
+  737  cd /var/lib/docker/
+  738  ls
+  739  cd volumes/
+  740  ls
+  741  cd ..
+  742  cd tmp
+  743  mkdir cd ..
+  744  cd ..
+  745  cd /
+  746  cd hom
+  747  cd home/
+  748  ls
+  749  mkdir mylocalvolume
+  750  docker run -v /home/mylocalvolume/: /myvolume --nme c5 -d -p 8085:8080 vijaypackg/mys3:3
+  751  docker run -v /home/mylocalvolume/: /myvolume --name c5 -d -p 8085:8080 vijaypackg/mys3:3
+  752  docker run -v /home/mylocalvolume/ : /myvolume --name c5 -d -p 8085:8080 vijaypackg/mys3:3
+  753  docker run -v /home/mylocalvolume/:/myvolume --name c5 -d -p 8085:8080 vijaypackg/mys3:3
+  754  dicker exec -it c5 /bin/bash
+  755  docker exec -it c5 /bin/bash
+  756  docker exec -it c5 /bin/bash .
+  757  clear
+  758  docker exec -it c5 /bin/bash
+  759  history
